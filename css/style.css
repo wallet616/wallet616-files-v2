@@ -1,0 +1,115 @@
+body {
+  background: #333;
+  color: #f7f7f7;
+  padding: 0;
+  margin: 0;
+  /*
+  a {
+      text-decoration: none;
+      font-size: 2em;
+      &:hover {
+          color: red;
+      }
+      &:link {
+          height: 5em;
+      }
+  }
+  */ }
+
+.announcements {
+  position: fixed;
+  width: 100%;
+  margin: 1em 0em;
+  padding: 0em;
+  z-index: 90; }
+
+.logo {
+  padding: 1em 0em;
+  margin-bottom: 1.5em; }
+  .logo .img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.png); }
+  .logo .description {
+    font-size: 1em;
+    letter-spacing: 0.25em;
+    color: #f7f7f7; }
+
+.login.keypad {
+  margin: auto; }
+
+@media screen and (min-width: 768px) {
+  .panel-body {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em; } }
+
+ul.nav.nav-tabs li {
+  cursor: pointer; }
+ul.nav.nav-tabs li.active a,
+ul.nav.nav-tabs li.active a:hover,
+ul.nav.nav-tabs li.active a:link,
+ul.nav.nav-tabs li.active a:visited {
+  background-color: #2e3338;
+  border-bottom-color: #2e3338;
+  cursor: default; }
+
+.no-margin-bottom {
+  margin-bottom: 0em; }
+
+.files_table thead > tr th {
+  border-bottom-width: 1px; }
+.files_table tbody > tr td {
+  border-width: 0px; }
+.files_table tbody > tr a {
+  text-decoration: none; }
+  .files_table tbody > tr a:hover {
+    cursor: pointer; }
+.files_table tbody > tr:nth-of-type(4n + 1) {
+  background-color: #3c424a; }
+  .files_table tbody > tr:nth-of-type(4n + 1) td {
+    padding-bottom: 0px; }
+.files_table tbody > tr:nth-of-type(4n + 2) {
+  background-color: #3c424a; }
+  .files_table tbody > tr:nth-of-type(4n + 2) td {
+    padding-top: 0px; }
+.files_table tbody > tr:nth-of-type(4n + 3) {
+  background-color: #353a41; }
+  .files_table tbody > tr:nth-of-type(4n + 3) td {
+    padding-bottom: 0px; }
+.files_table tbody > tr:nth-of-type(4n + 4) {
+  background-color: #353a41; }
+  .files_table tbody > tr:nth-of-type(4n + 4) td {
+    padding-top: 0px; }
+.files_table .description {
+  display: none; }
+
+.files_table a.glyphicon-chevron-down {
+  font-size: 1.16em; }
+.files_table th.files_table_button {
+  width: 3em; }
+.files_table th.files_table_name {
+  cursor: pointer; }
+.files_table th.files_table_date {
+  width: 7em;
+  cursor: pointer; }
+.files_table th.files_table_size {
+  width: 7em;
+  cursor: pointer; }
+.files_table .get_file {
+  cursor: pointer; }
+.files_table .btn {
+  font-size: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em; }
+
+ul.lista1 li {
+  color: blue; }
+  ul.lista1 li[data-m-panel-status="active"] {
+    color: red; }
+  ul.lista1 li[data-m-panel-status="inactive"] {
+    color: lightgreen; }
+
+/*# sourceMappingURL=style.css.map */
